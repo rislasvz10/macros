@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Macros Scotiabank" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1">
+  <content>
+    <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="368.0" prefWidth="702.0">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="cargar_data" layoutX="28.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="CARGAR INFORMACIÓN">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gen_reporte" alignment="CENTER" layoutX="378.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="GENERAR REPORTE" textAlignment="CENTER">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <TreeTableView fx:id="clientes" layoutX="7.2" layoutY="84.0" prefHeight="238.0" prefWidth="568.0" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Pagination fx:id="lotes_data" layoutX="24.0" layoutY="290.4" prefHeight="78.0" prefWidth="574.0" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="278.0" />
+         </children></AnchorPane>
+  </content>
+   <font>
+      <Font size="15.0" />
+   </font>
+</TitledPane>
