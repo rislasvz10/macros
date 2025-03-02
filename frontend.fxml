@@ -14,12 +14,12 @@
          <children>
             <Pane prefHeight="50.0" prefWidth="600.0">
                <children>
-                  <Button fx:id="cargar_data" layoutX="28.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="CARGAR INFORMACIÓN">
+                  <Button fx:id="cargar_data" layoutX="28.0" layoutY="13.0" mnemonicParsing="false" onAction="#cargarDatos" prefHeight="25.0" prefWidth="150.0" text="CARGAR INFORMACIÓN">
                      <font>
                         <Font size="10.0" />
                      </font>
                   </Button>
-                  <Button fx:id="gen_reporte" alignment="CENTER" layoutX="378.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="GENERAR REPORTE" textAlignment="CENTER">
+                  <Button fx:id="gen_reporte" alignment="CENTER" layoutX="378.0" layoutY="13.0" mnemonicParsing="false" onAction="#generarReporte" prefHeight="25.0" prefWidth="150.0" text="GENERAR REPORTE" textAlignment="CENTER">
                      <font>
                         <Font size="10.0" />
                      </font>
